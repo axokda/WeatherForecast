@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  position: relative;
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url(../images/240_F_211524227_Ett8aboQvVnROAFtqu3S1pW99Y3Th9vm.jpg);
+}
+
+main::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.498);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  padding: 0;
+}
